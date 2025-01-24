@@ -24,7 +24,6 @@ Python and Pandas are used to transform the extracted data. Transformations incl
 
 ## Data Loading
 Data is loaded into a local Postgres database. The database schema is created using SQL Data Definition Language (DDL). Three main tables are defined for the ETL process. Data is loaded into a temporary table using the Pandas `.to_sql` method before inserting it into the final database. This ensures that tracks are unique.
-<img width="1296" alt="Screenshot 2024-02-23 at 4 26 27 AM" src="https://github.com/PeterNdiforchu/Project_Template/assets/157251680/51cd3a8f-95f9-4044-80ed-4cceb39db46a">
 
 ## Analysis and Insights
 Machine learning is applied to perform a sensitivity analysis and identify moods based on song plays at different points in time. Top 5 moods identified were inspirational, happy, exuberant, energetic and contentment.
