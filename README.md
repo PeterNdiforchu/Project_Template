@@ -4,7 +4,7 @@
 
 ![spotify_logo](https://github.com/PeterNdiforchu/Project_Template/assets/76578061/590e7144-c321-4965-ae67-eeddcb3b5e7b)
 
-## Project Description
+## Project Description/Problem Statement
 At the core of this project is the process of extracting data from Spotify on user listening history, performing data transformations, and loading the data to a database for user song play analytics. The program uses Spotipy, a lightweight Python library for the Spotify Web API. The primary objectives of this project are to:
 - Build a data pipeline for Spotify music streams for the year 2022.
 - Analyze music streams to create Spotify Wrapped-style insights and compare them with the official 2022 Wrapped.
